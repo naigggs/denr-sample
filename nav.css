@@ -1,0 +1,156 @@
+/* Reset some default styles */
+body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.logo-container{
+    text-align: center;
+    background-color: #4b9385;
+    /* margin-left: 250px; */
+}
+.logo{
+    height: auto;
+    width: auto;
+}
+/* Define the navbar styles */
+.navbar {
+    background-color: #333333;
+    display: flex;   
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+    margin-right: auto;
+    border-left: 1px solid #4e4e4e;
+    border-right: 1px solid #4e4e4e;
+
+}
+.navbar-2 {
+    background-color: black;
+    /* display: flex;    */
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.navbar-2.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0); /* Background color when fixed */
+    /* Add any other styles you want for the fixed appearance */
+}
+.nav-menu-2 {
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    /* margin-left: 400px; */
+    margin-right: auto;
+    /* border: 1px solid red; */
+}
+.content{
+    text-align: center;
+}
+.nav-item {
+    padding: 20px ;
+}
+.nav-item-2 {
+    padding: 10px ;
+}
+.nav-item-2 a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: #333333;
+    min-width: 300px;
+    z-index: 1;
+}
+.dropdown-content a:hover{
+    background-color: black;
+}
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.dropdown-2 {
+    position: relative;
+}
+
+.dropdown-content-2 {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    background-color: black;
+    min-width: 300px;
+    z-index: 1;
+}
+.dropdown-content-2 a:hover{
+    background-color: #333333;
+}
+.dropdown-content-2 a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.nav-item:hover{
+    background-color: black;
+}
+.nav-item:hover .dropdown-content {
+    display: block;
+   
+}
+.nav-item-2:hover{
+    background-color: black;
+}
+.nav-item-2:hover .dropdown-content-2 {
+    display: block;
+   
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    margin-left: auto;
+    margin-right: 500px;
+    list-style: none;
+}
+
+.nav-search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}

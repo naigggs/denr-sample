@@ -1,0 +1,34 @@
+.container-2{
+    text-align: center;
+    color: white;
+    background-color: #455360;
+    font-family: 'Roboto', sans-serif;
+
+}
+.title{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 30px;
+}
+.image-grid {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    gap: 200px; /* Adjust the gap between images */
+    max-width: 1920px; /* Adjust the maximum width of the grid */
+    text-align: center;
+    justify-content: center; /* Center the items horizontally */
+    overflow-x: auto; /* Add horizontal scrolling if needed */
+    padding-bottom: 100px;
+}
+
+/* Style for each image item */
+.image-item {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+/* Style for image titles */
+.image-title {
+    margin-top: 20px; /* Adjust the spacing between image and title */
+}
